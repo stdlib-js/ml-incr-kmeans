@@ -60,7 +60,7 @@
     "@stdlib/random-sample": "^0.0.x",
     "@stdlib/stats-incr-mean": "^0.0.x",
     "@stdlib/stats-incr-meanstdev": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
   },
