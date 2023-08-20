@@ -30,38 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ml-incr-kmeans
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-incrkmeans = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var incrkmeans = require( 'path/to/vendor/umd/ml-incr-kmeans/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.incrkmeans;
-})();
-</script>
+var incrkmeans = require( '@stdlib/ml-incr-kmeans' );
 ```
 
 #### incrkmeans( k\[, ndims]\[, options] )
@@ -247,14 +239,9 @@ To specify an output vector, provide a 1-dimensional [`ndarray`][@stdlib/ndarray
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var normal = require( '@stdlib/random-base-normal' ).factory;
 var ndarray = require( '@stdlib/ndarray-ctor' );
 var Float64Array = require( '@stdlib/array-float64' );
 var Int8Array = require( '@stdlib/array-int8' );
@@ -354,11 +341,6 @@ if ( results ) {
 console.log( '' );
 console.log( 'True cluster distribution: %s', totals.join( ', ' ) );
 console.log( '' );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -439,7 +421,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -457,7 +439,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [k-means-clustering]: https://en.wikipedia.org/wiki/K-means_clustering
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/umd
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
 [@lloyd:1982a]: https://doi.org/10.1109/TIT.1982.1056489
 
