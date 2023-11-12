@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-/* tslint:disable:unified-signatures */
+/* eslint-disable @typescript-eslint/unified-signatures */
 
 // TypeScript Version: 4.1
 
@@ -179,7 +179,7 @@ interface Accumulator {
 * out = accumulator();
 * // returns {...}
 */
-declare function incrkmeans( k: number | ndarray, ndims: number, options?: Options ): Accumulator; // tslint-disable-line max-line-length
+declare function incrkmeans( k: number | ndarray, ndims: number, options?: Options ): Accumulator;
 
 
 // EXPORTS //
