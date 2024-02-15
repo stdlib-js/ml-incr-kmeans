@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@deno/mod.js';
+import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@v0.2.0-deno/mod.js';
 ```
 
 #### incrkmeans( k\[, ndims]\[, options] )
@@ -240,7 +240,7 @@ var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal'
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@deno/mod.js';
+import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@v0.2.0-deno/mod.js';
 
 // Define the number of data points to simulate:
 var N = 1e4;
