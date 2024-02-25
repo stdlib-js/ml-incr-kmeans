@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ml-incr-kmeans/tags). For example,
+
+```javascript
 import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@v0.2.1-deno/mod.js';
 ```
 
@@ -240,7 +245,7 @@ var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal'
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@v0.2.1-deno/mod.js';
+import incrkmeans from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr-kmeans@deno/mod.js';
 
 // Define the number of data points to simulate:
 var N = 1e4;
