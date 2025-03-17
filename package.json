@@ -3,7 +3,31 @@
   "version": "0.2.1",
   "description": "Incrementally partition data into `k` clusters.",
   "license": "Apache-2.0",
-  "main": "./index.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -12,6 +36,61 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/assert-contains": "^0.2.2",
+    "@stdlib/assert-has-own-property": "^0.2.2",
+    "@stdlib/assert-is-array-like-object": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-matrix-like": "^0.2.2",
+    "@stdlib/assert-is-plain-object": "^0.2.2",
+    "@stdlib/assert-is-positive-integer": "^0.2.2",
+    "@stdlib/assert-is-vector-like": "^0.2.2",
+    "@stdlib/blas-base-dcopy": "^0.3.0",
+    "@stdlib/blas-base-gcopy": "^0.2.1",
+    "@stdlib/constants-float64-pinf": "^0.2.2",
+    "@stdlib/math-base-special-floor": "^0.2.3",
+    "@stdlib/math-base-special-ln": "^0.2.4",
+    "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/ndarray-base-ctor": "^0.2.2",
+    "@stdlib/ndarray-ctor": "^0.2.2",
+    "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-minstd-shuffle": "^0.2.1",
+    "@stdlib/random-base-mt19937": "^0.2.1",
+    "@stdlib/random-sample": "^0.2.1",
+    "@stdlib/stats-incr-mean": "^0.2.2",
+    "@stdlib/stats-incr-meanstdev": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
+    "@stdlib/types": "^0.4.3",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+  },
+  "devDependencies": {
+    "@stdlib/array-int8": "^0.2.2",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/plot": "^0.3.3",
+    "@stdlib/random-base-normal": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.1",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
