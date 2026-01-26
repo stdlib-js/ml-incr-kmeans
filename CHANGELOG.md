@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2026-01-26)
 
 <section class="issues">
 
@@ -24,8 +24,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`153c9c1`](https://github.com/stdlib-js/stdlib/commit/153c9c19e7e5bc138e18500cea598365d6df55d8) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
--   [`29719d2`](https://github.com/stdlib-js/stdlib/commit/29719d2f90006e0f54bacb4359f164d08236258a) - **chore:** fix EditorConfig lint errors [(#7279)](https://github.com/stdlib-js/stdlib/pull/7279) _(by zhanggy)_
+-   [`29719d2`](https://github.com/stdlib-js/stdlib/commit/29719d2f90006e0f54bacb4359f164d08236258a) - **chore:** fix EditorConfig lint errors [(#7279)](https://github.com/stdlib-js/stdlib/pull/7279) _(by Geo Daoyu)_
 -   [`e03f8cd`](https://github.com/stdlib-js/stdlib/commit/e03f8cd3df4fc2f61313995c31500d5a43d303a3) - **refactor:** use base array assertion utility _(by Athan Reines)_
 
 </details>
@@ -41,8 +42,8 @@ This release closes the following issue:
 A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Geo Daoyu
 -   Philipp Burckhardt
--   zhanggy
 
 </section>
 
