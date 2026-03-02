@@ -42,7 +42,7 @@
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-array-like-object": "^0.2.3",
     "@stdlib/assert-is-boolean": "^0.2.3",
-    "@stdlib/assert-is-matrix-like": "^0.2.2",
+    "@stdlib/assert-is-matrix-like": "^0.2.3",
     "@stdlib/assert-is-plain-object": "^0.2.3",
     "@stdlib/assert-is-positive-integer": "^0.2.3",
     "@stdlib/assert-is-vector-like": "^0.2.3",
