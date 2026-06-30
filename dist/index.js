@@ -1,4 +1,4 @@
-"use strict";var h=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var L=h(function(Fa,$){
+"use strict";var h=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(v){throw (e=0, v)}};};var L=h(function(Fa,$){
 var Xr=require('@stdlib/array-float64/dist'),re=require('@stdlib/ndarray-ctor/dist'),ee=require('@stdlib/ndarray-base-ctor/dist');function ae(r,e,v){var o,n,i,s;return v?s=ee:s=re,n=new Xr(r*e),i=[r,e],o=[e,1],s("float64",n,i,o,0,"row-major")}$.exports=ae
 });var X=h(function(Ia,Y){
 var ie=require('@stdlib/blas-base-gcopy/dist').ndarray;function te(r,e){var v,o,n,i,s,a,u,t,f,m,d;for(f=e.shape[0],m=e.shape[1],v=e.data,o=r.data,n=e.strides[0],i=e.strides[1],s=r.strides[0],a=r.strides[1],u=e.offset,t=r.offset,d=0;d<f;d++)ie(m,v,i,u,o,a,t),u+=n,t+=s;return r}Y.exports=te
